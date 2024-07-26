@@ -10,33 +10,34 @@ token = env.str("BOT_TOKEN")
 
 MESSAGES = {
     'uz': {
-        'DRAFT': "⚠️ Arizangiz qoralama holatida. Iltimos, ko'rib chiqib arizangizni yuboring!",
-        'SUBMITTED': "☑️ Arizangiz yuborilgan. Iltimos, natijani kuting!",
-        'REJECTED': "❌ Arizangiz rad etildi. Iltimos, ko'rib chiqib arizangizni qayta yuboring!",
-        'ACCEPTED': "✅ Arizangiz qabul qilindi. Quyidagi \"🧑‍💻 Imtihon topshirish\" tugmasini bosib imtihon topshirishingiz mumkin!",
-        'EXAMINED': "🔄 Imtihon topshirildi. Iltimos, natijani kuting!",
-        'FAILED': "😔 Imtihondan o'ta olmadingiz. Imtihon topshirish uchun 2 marta imkoniyat beriladi. Shuning uchun sizga imtihon topshirish uchun yana imkoniyat beriladi! Quyidagi \"🧑‍💻 Imtihon topshirish\" tugmasini bosib imtihon topshirishingiz mumkin!",
-        'PASSED': "🥳 Siz Fan va texnologiyalar universitetiga tavsiya etildingiz. Quyidagi \"📥 Shartnomani olish\" tugmasi orqali kontakt shartnoma faylini yuklab olishingiz mumkin.",
+        'DRAFT': "⚠️ Arizangiz qoralama holatida. Iltimos, tekshirib, arizangizni yuboring.",
+        'SUBMITTED': "☑️ Arizangiz tekshirishga yuborildi. Iltimos, tasdiqlanishini kuting.",
+        'REJECTED': "❌ Arizangiz rad etildi. Iltimos, kiritilgan ma'lumotlarni tekshirib, arizangizni qaytadan yuboring.",
+        'ACCEPTED': "✅ Arizangiz qabul qilindi. Quyidagi \"🧑‍💻 Imtihon topshirish\" tugmasini bosib, imtihon topshirishingiz mumkin!",
+        'EXAMINED': "🔄 Imtihon topshirildi. Iltimos, natijasini kuting.",
+        'FAILED': "😔 Afsuski imtihondan o'ta olmadingiz. Sizga yana bir imkoniyat beriladi. Buning uchun quyidagi \"🧑‍💻 Imtihon topshirish\" tugmasini bosing.",
+        'PASSED': "🥳 Tabriklaymiz! Siz Fan va texnologiyalar universitetiga tavsiya etildingiz. Quyidagi \"📥 Shartnomani olish\" tugmasi orqali shartnomani yuklab olishingiz mumkin.",
     },
     'ru': {
-        'DRAFT': "⚠️ Ваша заявка в черновике. Пожалуйста, проверьте и отправьте вашу заявку!",
-        'SUBMITTED': "☑️ Ваша заявка отправлена. Пожалуйста, ожидайте результат!",
-        'REJECTED': "❌ Ваша заявка отклонена. Пожалуйста, проверьте и повторно отправьте вашу заявку!",
-        'ACCEPTED': "✅ Ваша заявка принята. Вы можете сдать экзамен, нажав кнопку \"🧑‍💻 Сдать экзамен\" ниже!",
-        'EXAMINED': "🔄 Экзамен сдан. Пожалуйста, ожидайте результат!",
-        'FAILED': "😔 Вы не сдали экзамен. Вам предоставляется 2 попытки для сдачи экзамена. Поэтому у вас будет еще одна попытка сдать экзамен! Вы можете сдать экзамен, нажав кнопку \"🧑‍💻 Сдать экзамен\" ниже!",
-        'PASSED': "🥳 Вы рекомендованы в Университет науки и технологий. Вы можете загрузить контракт, нажав кнопку \"📥 Получить контракт\" ниже.",
+        'DRAFT': "⚠️ Ваша заявка находится в черновике. Пожалуйста, проверьте и отправьте вашу заявку.",
+        'SUBMITTED': "☑️ Ваша заявка отправлена на проверку. Пожалуйста, ожидайте подтверждения.",
+        'REJECTED': "❌ Ваша заявка отклонена. Пожалуйста, проверьте введенные данные и отправьте заявку повторно.",
+        'ACCEPTED': "✅ Ваша заявка принята. Вы можете сдать экзамен, нажав на кнопку \"🧑‍💻 Сдать экзамен\" ниже!",
+        'EXAMINED': "🔄 Экзамен сдан. Пожалуйста, ожидайте результат.",
+        'FAILED': "😔 К сожалению, вы не прошли экзамен. Вам будет предоставлена еще одна возможность. Для этого нажмите кнопку \"🧑‍💻 Сдать экзамен\" ниже.",
+        'PASSED': "🥳 Поздравляем! Вы рекомендованы в Университет науки и технологий. Вы можете скачать договор, нажав на кнопку \"📥 Получить договор\" ниже.",
     },
     'en': {
-        'DRAFT': "⚠️ Your application is in draft status. Please review and submit your application!",
-        'SUBMITTED': "☑️ Your application has been submitted. Please wait for the result!",
-        'REJECTED': "❌ Your application has been rejected. Please review and resubmit your application!",
-        'ACCEPTED': "✅ Your application has been accepted. You can take the exam by clicking the \"🧑‍💻 Take Exam\" button below!",
-        'EXAMINED': "🔄 The exam has been taken. Please wait for the result!",
-        'FAILED': "😔 You did not pass the exam. You have 2 chances to take the exam. Therefore, you will have another chance to take the exam! You can take the exam by clicking the \"🧑‍💻 Take Exam\" button below!",
-        'PASSED': "🥳 You have been recommended to the University of Science and Technology. You can download the contract file by clicking the \"📥 Get Contract\" button below.",
+        'DRAFT': "⚠️ Your application is in draft status. Please review and submit your application.",
+        'SUBMITTED': "☑️ Your application has been submitted for review. Please wait for confirmation.",
+        'REJECTED': "❌ Your application was rejected. Please check the entered information and resubmit your application.",
+        'ACCEPTED': "✅ Your application has been accepted. You can take the exam by clicking the \"🧑‍💻 Take the exam\" button below!",
+        'EXAMINED': "🔄 The exam has been taken. Please wait for the results.",
+        'FAILED': "😔 Unfortunately, you did not pass the exam. You will be given another opportunity. To do this, click the \"🧑‍💻 Take the exam\" button below.",
+        'PASSED': "🥳 Congratulations! You have been recommended to the University of Science and Technology. You can download the contract by clicking the \"📥 Get the contract\" button below.",
     }
 }
+
 
 
 async def send_message_via_tg_api(telegram_user: schemas.SendMessage):
